@@ -1,7 +1,5 @@
-import express from "express";
-import path from "path";
-
-const __dirname = path.resolve();
+const express = require("express");
+const path = require("path");
 
 const app = express();
 
